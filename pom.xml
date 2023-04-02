@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>goit</groupId>
-  <artifactId>myname</artifactId>
+  <artifactId>goitpackage</artifactId>
   <version>1</version>
 
   <name>javadev</name>
@@ -43,6 +43,7 @@
   </dependencies>
 
   <build>
+    <finalName>myname</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -65,6 +66,7 @@
               <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
               </descriptorRefs>
+              <appendAssemblyId>false</appendAssemblyId>
             </configuration>
           </execution>
         </executions>
